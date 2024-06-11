@@ -84,11 +84,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}ruleta
  ┃➤ ${usedPrefix}suerte
  ╰━━━━━━━━━━━━━
-  
- ╭━           ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑰𝑨 ❄ 
- ┃➤ ${usedPrefix}geminiimg *reaccione a una foto*
- ┃➤ ${usedPrefix}gemini *texto*
- ╰━━━━━━━━━━━━━
 
  ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑨𝒖𝒔𝒕𝒆𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐  ❄ 
  ┃➤ ${usedPrefix}enable *o* disable *bienvenida | welcome*
@@ -150,14 +145,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}historia
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑨𝒏𝒐𝒏𝒊𝒎𝒐 ❄ 
- ┃➤ ${usedPrefix}chatanonimo | anonimochat
- ┃➤ ${usedPrefix}anonimoch
- ┃➤ ${usedPrefix}start
- ┃➤ ${usedPrefix}next
- ┃➤ ${usedPrefix}leave
-  ╰━━━━━━━━━━━━━
-
  ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐 ❄ 
  ┃➤ ${usedPrefix}add *numero*
  ┃➤ ${usedPrefix}sacar | ban | kick  *@tag*
@@ -192,15 +179,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}enable
  ┃➤ ${usedPrefix}disable
   ╰━━━━━━━━━━━━━
-
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑷𝒂𝒓𝒆𝒋𝒂𝒔 ❄ 
- ┃➤ ${usedPrefix}listaparejas | listship
- ┃➤ ${usedPrefix}mipareja | mylove
- ┃➤ ${usedPrefix}pareja | couple *@tag*
- ┃➤ ${usedPrefix}aceptar | accept *@tag*
- ┃➤ ${usedPrefix}rechazar | decline *@tag*
- ┃➤ ${usedPrefix}terminar | finish *@tag*
- ╰━━━━━━━━━━━━━
 
  ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 ❄ 
  ┃➤ ${usedPrefix}toimg | img | jpg *sticker*
