@@ -11,7 +11,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const user = `@${m.sender.split`@`[0]}`;
   const isGroupLink = linkRegex.exec(m.text);
   const grupo = `https://chat.whatsapp.com`;
-  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('*𝑯𝒆𝒚 𝑬𝒍 𝑨𝒏𝒕𝒊𝒍𝒊𝒏𝒌 𝑬𝒔𝒕𝒂 𝑯𝒂𝒃𝒊𝒍𝒊𝒕𝒂𝒅𝒐 𝑷𝒆𝒓𝒐 𝑬𝒓𝒆𝒔 𝑨𝒅𝒎𝒊𝒏*');
+  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('*[❗] 𝑯𝒆𝒚 𝑬𝒍 𝑨𝒏𝒕𝒊𝒍𝒊𝒏𝒌 𝑬𝒔𝒕𝒂 𝑯𝒂𝒃𝒊𝒍𝒊𝒕𝒂𝒅𝒐 𝑷𝒆𝒓𝒐 𝑬𝒓𝒆𝒔 𝑨𝒅𝒎𝒊𝒏*');
   if (chat.antiLink && isGroupLink && !isAdmin) {
     if (isBotAdmin) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
