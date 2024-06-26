@@ -31,48 +31,48 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╰━━━━━━━━━━━━━
  
  ╭━      ❄ 𝑨𝒖𝒅𝒊𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄ 
- ┃➤ _Quien es tu sempai botsito 7w7_
- ┃➤ _Te diagnostico con gay_
- ┃➤ _No digas eso papu_
- ┃➤ _A nadie le importa_
- ┃➤ _Fiesta del admin_
- ┃➤ _Fiesta del administrador_ 
- ┃➤ _Vivan los novios_
- ┃➤ _Feliz cumpleaños_
- ┃➤ _Noche de paz_
- ┃➤ _Buenos dias_
- ┃➤ _Buenos tardes_
- ┃➤ _Buenos noches_
- ┃➤ _Audio hentai_
- ┃➤ _Chica lgante_
- ┃➤ _Feliz navidad_
- ┃➤ _Vete a la vrg_
- ┃➤ _Pasa pack Bot_
- ┃➤ _Atencion grupo_
- ┃➤ _Marica quien_
- ┃➤ _Murio el grupo_
- ┃➤ _Oh me vengo_
- ┃➤ _tio que rico_
- ┃➤ _Viernes_
- ┃➤ _Baneado_
- ┃➤ _Sexo_
- ┃➤ _Hola_
- ┃➤ _Un pato_
- ┃➤ _Nyanpasu_
- ┃➤ _Te amo_
- ┃➤ _Yamete_
- ┃➤ _Bañate_
- ┃➤ _Es puto_
- ┃➤ _La biblia_
- ┃➤ _Onichan_
- ┃➤ _Mierda de Bot_
- ┃➤ _Siuuu_
- ┃➤ _Epico_
- ┃➤ _Shitpost_
- ┃➤ _Rawr_
- ┃➤ _UwU_
- ┃➤ _:c_
- ┃➤ _a_
+ ┃➤ ${usedPrefix}Quien es tu sempai botsito 7w7
+ ┃➤ ${usedPrefix}Te diagnostico con gay
+ ┃➤ ${usedPrefix}No digas eso papu
+ ┃➤ ${usedPrefix}A nadie le importa
+ ┃➤ ${usedPrefix}Fiesta del admin
+ ┃➤ ${usedPrefix}Fiesta del administrador 
+ ┃➤ ${usedPrefix}Vivan los novios
+ ┃➤ ${usedPrefix}Feliz cumpleaños
+ ┃➤ ${usedPrefix}Noche de paz
+ ┃➤ ${usedPrefix}Buenos dias
+ ┃➤ ${usedPrefix}Buenos tardes
+ ┃➤ ${usedPrefix}Buenos noches
+ ┃➤ ${usedPrefix}Audio hentai
+ ┃➤ ${usedPrefix}Chica lgante
+ ┃➤ ${usedPrefix}Feliz navidad
+ ┃➤ ${usedPrefix}Vete a la vrg
+ ┃➤ ${usedPrefix}Pasa pack Bot
+ ┃➤ ${usedPrefix}Atencion grupo
+ ┃➤ ${usedPrefix}Marica quien
+ ┃➤ ${usedPrefix}Murio el grupo
+ ┃➤ ${usedPrefix}Oh me vengo
+ ┃➤ ${usedPrefix}tio que rico
+ ┃➤ ${usedPrefix}Viernes
+ ┃➤ ${usedPrefix}Baneado
+ ┃➤ ${usedPrefix}Sexo
+ ┃➤ ${usedPrefix}Hola
+ ┃➤ ${usedPrefix}Un pato
+ ┃➤ ${usedPrefix}Nyanpasu
+ ┃➤ ${usedPrefix}Te amo
+ ┃➤ ${usedPrefix}Yamete
+ ┃➤ ${usedPrefix}Bañate
+ ┃➤ ${usedPrefix}Es puto
+ ┃➤ ${usedPrefix}La biblia
+ ┃➤ ${usedPrefix}Onichan
+ ┃➤ ${usedPrefix}Mierda de Bot
+ ┃➤ ${usedPrefix}Siuuu
+ ┃➤ ${usedPrefix}Epico
+ ┃➤ ${usedPrefix}Shitpost
+ ┃➤ ${usedPrefix}Rawr
+ ┃➤ ${usedPrefix}UwU
+ ┃➤ ${usedPrefix}:c
+ ┃➤ ${usedPrefix}a
  ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
