@@ -197,13 +197,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰━━━━━━━━━━━━━
   
  ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑳𝒐𝒈𝒐𝒔 ❄ 
- *┃➤* _${usedPrefix}simpcard *@tag*_
- *┃➤* _${usedPrefix}hornycard *@tag*_
- *┃➤* _${usedPrefix}lolice *@tag*_
- *┃➤* _${usedPrefix}ytcomment *texto*_
- *┃➤* _${usedPrefix}itssostupid_
- *┃➤* _${usedPrefix}pixelar_
- *┃➤* _${usedPrefix}blur_
+ *┃➤* ${usedPrefix}simpcard *@tag*
+ *┃➤* ${usedPrefix}hornycard *@tag*
+ *┃➤* ${usedPrefix}lolice *@tag*
+ *┃➤* ${usedPrefix}ytcomment *texto*
+ *┃➤* ${usedPrefix}itssostupid
+ *┃➤* ${usedPrefix}pixelar
+ *┃➤* ${usedPrefix}blur
   ╰━━━━━━━━━━━━━
 
  
@@ -226,7 +226,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}akira
  ┃➤ ${usedPrefix}akiyama
  ┃➤ ${usedPrefix}anna
- ┃➤ {usedPrefix}asuna
+ ┃➤ ${usedPrefix}asuna
  ┃➤ ${usedPrefix}ayuzawa
  ┃➤ ${usedPrefix}boruto
  ┃➤ ${usedPrefix}chiho
@@ -292,7 +292,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 ❄ 
  ┃➤ ${usedPrefix}afk *motivo*
- ┃➤ _${usedPrefix}acortar *url*
+ ┃➤ ${usedPrefix}acortar *url*
  ┃➤ ${usedPrefix}calc *operacion math*
  ┃➤ ${usedPrefix}del *respondre a mensaje del Bot*
  ┃➤ ${usedPrefix}qrcode *texto*
