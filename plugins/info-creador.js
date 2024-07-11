@@ -1,11 +1,11 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = ` 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/51992621601*
+  const text = ` 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/+56971943258*
 
 
 
- 𝙴𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙳𝙴 𝙻𝙰 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 11 𝙴𝚂 https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY*
+ 𝙴𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙳𝙴 𝙻𝙰 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 11 𝙴𝚂 https://chat.whatsapp.com/HhZUtxp2KRTD5rD5j09VCy*
 
  𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 12 𝙴𝚂 wa.me/51992621601*`.trim();
   const buttonMessage= {

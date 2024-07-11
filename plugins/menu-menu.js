@@ -22,13 +22,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `   
- ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑪𝒂𝒈𝒂 𝑯𝒊𝒆𝒍𝒐 ❄
+ ╭━     ❄ 𝙑𝙖𝙡𝙪 𝘽𝙤𝙩 ❄
  ┃➤
  ┃➤    𝗛ola, ${taguser}
  ┃➤
- ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : Aleizn ❄
- ┃➤ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/ale.izn_20/
- ┃➤ Nᴜᴍᴇʀᴏ wa.me/51992621601
+ ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : 𝙑𝙖𝙡𝙪 𝘽𝙤𝙩 ❄
+ ┃➤ https://chat.whatsapp.com/HhZUtxp2KRTD5rD5j09VCy
+ ┃➤ Nᴜᴍᴇʀᴏ wa.me/+56971943258
  ┃➤ Fᴇᴄʜᴀ : ${date}
  ╰━━━━━━━━━━━━━
   
