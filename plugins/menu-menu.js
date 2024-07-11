@@ -32,14 +32,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ Fᴇᴄʜᴀ : ${date}
  ╰━━━━━━━━━━━━━
   
- ╭━      ❄ 𝑰𝒏𝒇𝒐 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄ 
+ ╭━      ❄ 𝑰𝒏𝒇𝒐 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 ❄ 
  ┃➤ ${usedPrefix}listagrupos
  ┃➤ ${usedPrefix}estado
  ┃➤ ${usedPrefix}creador
  ┃➤ ${usedPrefix}velocidad
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑱𝒖𝒆𝒈𝒐𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑱𝒖𝒆𝒈𝒐𝒔 ❄ 
  ┃➤ ${usedPrefix}mates | matemáticas | math
  ┃➤ ${usedPrefix}lanzar *cara* | *cruz*
  ┃➤ ${usedPrefix}ppt *piedra : papel : tijera*
@@ -85,7 +85,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}suerte
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑨𝒖𝒔𝒕𝒆𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐  ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑨𝒖𝒔𝒕𝒆𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐  ❄ 
  ┃➤ ${usedPrefix}enable *o* disable *bienvenida | welcome*
  ┃➤ ${usedPrefix}enable *o* disable *avisos | detect*
  ┃➤ ${usedPrefix}enable *o* disable *autonivel | autolevelup*
@@ -115,7 +115,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}enable *o* disable *sologrupos | gconly*  
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑩𝒐𝒕 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔 ❄ 
  ┃➤ ${usedPrefix}imagen | image *texto*
  ┃➤ ${usedPrefix}pinterest | dlpinterest *texto*
  ┃➤ ${usedPrefix}wallpaper|wp *texto*
@@ -145,7 +145,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}historia
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐 ❄ 
  ┃➤ ${usedPrefix}add *numero*
  ┃➤ ${usedPrefix}sacar | ban | kick  *@tag*
  ┃➤ ${usedPrefix}grupo *abrir o cerrar*
@@ -180,7 +180,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}disable
   ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 ❄ 
  ┃➤ ${usedPrefix}toimg | img | jpg *sticker*
  ┃➤ ${usedPrefix}toanime | jadianime *foto*
  ┃➤ ${usedPrefix}tomp3 | mp3 *video o nota de voz*
@@ -191,12 +191,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}tts es *texto*
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑳𝒐𝒈𝒐𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑩𝒐𝒕 𝑳𝒐𝒈𝒐𝒔 ❄ 
  ┃➤ ${usedPrefix}logos *efecto texto*
  ┃➤ ${usedPrefix}menulogos2
 ╰━━━━━━━━━━━━━
   
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑳𝒐𝒈𝒐𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑩𝒐𝒕 𝑳𝒐𝒈𝒐𝒔 ❄ 
  *┃➤* ${usedPrefix}simpcard *@tag*
  *┃➤* ${usedPrefix}hornycard *@tag*
  *┃➤* ${usedPrefix}lolice *@tag*
@@ -207,7 +207,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ╰━━━━━━━━━━━━━
 
  
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑨𝒏𝒊𝒎𝒆 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑨𝒏𝒊𝒎𝒆 ❄ 
  ┃➤ ${usedPrefix}chica
  ┃➤ ${usedPrefix}chico
  ┃➤ ${usedPrefix}cristianoronaldo
@@ -260,7 +260,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}cosplay
  ╰━━━━━━━━━━━━━
   
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑬𝒇𝒆𝒄𝒕𝒐𝒔 ❄
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑬𝒇𝒆𝒄𝒕𝒐𝒔 ❄
  ┃➤ ${usedPrefix}bass
  ┃➤ ${usedPrefix}blown
  ┃➤ ${usedPrefix}deep
@@ -275,7 +275,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}tupai
  ╰━━━━━━━━━━━━━
   	
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑩𝒖𝒔𝒒𝒖𝒆𝒅𝒂𝒔 ❄
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑩𝒖𝒔𝒒𝒖𝒆𝒅𝒂𝒔 ❄
  ┃➤ ${usedPrefix}animeinfo *texto*
  ┃➤ ${usedPrefix}anuel
  ┃➤ ${usedPrefix}conejo
@@ -290,7 +290,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}wiki | wikipedia *texto*
  ╰━━━━━━━━━━━━━
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 ❄ 
  ┃➤ ${usedPrefix}afk *motivo*
  ┃➤ ${usedPrefix}acortar *url*
  ┃➤ ${usedPrefix}calc *operacion math*
@@ -307,11 +307,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╰━━━━━━━━━━━━━
 
 
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑻𝒐𝒑𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑻𝒐𝒑𝒔 ❄ 
  ┃➤ ${usedPrefix}top
  ╰━━━━━━━━━━━━━
   
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 ❄ 
  ┃➤ ${usedPrefix}sticker | s *imagen o video*
  ┃➤ ${usedPrefix}sticker | s *url de tipo jpg*
  ┃➤ ${usedPrefix}emojimix *😺+😆*
@@ -331,12 +331,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}cs *:* cs2
  ╰━━━━━━━━━━━━━
   
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 2 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 2 ❄ 
  ┃➤ ${usedPrefix}wm *packname|author*
  ┃➤ ${usedPrefix}wm *texto1|texto2*
  ╰━━━━━━━━━━━━━
   
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 3 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 3 ❄ 
  ┃➤ ${usedPrefix}palmaditas | pat *@tag*
  ┃➤ ${usedPrefix}bofetada | slap *@tag*
  ┃➤ ${usedPrefix}golpear *@tag*
@@ -344,7 +344,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}alimentar | food *@tag*
  ╰━━━━━━━━━━━━━
   
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓𝒔 ❄ 
+ ╭━     ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑶𝒘𝒏𝒆𝒓𝒔 ❄ 
  ┃➤ ${usedPrefix}join *enlace*
  ┃➤ ${usedPrefix}unete *enlace*
  ┃➤ ${usedPrefix}dardiamantes *cantidad*
@@ -373,7 +373,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}añadirdiamantes *@tag cantidad*
  ┃➤ ${usedPrefix}añadirxp *@tag cantidad*
  ┃➤ ${usedPrefix}añadirManjirocoins *@tag cantidad*
-  ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━ `.trim();
+  ╰━━━━━━━━━ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 ━━━━ `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};

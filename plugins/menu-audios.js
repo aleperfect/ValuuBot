@@ -30,7 +30,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ Fᴇᴄʜᴀ : ${date}
  ╰━━━━━━━━━━━━━
  
- ╭━      ❄ 𝑨𝒖𝒅𝒊𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄ 
+ ╭━      ❄ 𝑨𝒖𝒅𝒊𝒐𝒔 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 ❄ 
  ┃➤ ${usedPrefix}Quien es tu sempai botsito 7w7
  ┃➤ ${usedPrefix}Te diagnostico con gay
  ┃➤ ${usedPrefix}No digas eso papu
@@ -73,7 +73,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}UwU
  ┃➤ ${usedPrefix}:c
  ┃➤ ${usedPrefix}a
- ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━`.trim();
+ ╰━━━━━━━━━ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 ━━━━`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};

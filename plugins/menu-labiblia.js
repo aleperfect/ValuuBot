@@ -30,7 +30,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
  ┃➤ Fᴇᴄʜᴀ : ${date}
  ╰━━━━━━━━━━━━━
 
- ╭━      ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 +𝟏𝟖 ❄ 
+ ╭━      ❄ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑩𝒐𝒕 +𝟏𝟖 ❄ 
  ┃➤ _${usedPrefix}pack_
  ┃➤ _${usedPrefix}pack2_
  ┃➤ _${usedPrefix}pack3_
@@ -63,7 +63,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
  ┃➤ _${usedPrefix}nsfwglass_
  ┃➤ _${usedPrefix}hentaipdf *<texto>*_
  ┃➤ _${usedPrefix}hentaisearch *<texto>*_
- ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━`.trim();
+ ╰━━━━━━━━━ 𝑩𝒐𝒕𝒄𝒊𝒕𝒐 𝑩𝒐𝒕 ━━━━`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
