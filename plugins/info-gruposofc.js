@@ -5,11 +5,11 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 *➤ 𝙶𝚛𝚞𝚙𝚘𝚜 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜:*
 *1.-* 
-https://chat.whatsapp.com/LB0R72iDtxsEDuaacQcj4T
+https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY
 
 qi
 *2.-* 
-https://chat.whatsapp.com/E4z6yjLvz4b9IIbfydVIyM
+https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY
 
 `.trim();
   const buttonMessage= {
