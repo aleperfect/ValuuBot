@@ -7,7 +7,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 
  𝙴𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙳𝙴 𝙻𝙰 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 11 𝙴𝚂 https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY*
 
- 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 12 𝙴𝚂 wa.me/5215541081250*`.trim();
+ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 12 𝙴𝚂 wa.me/51992621601*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
